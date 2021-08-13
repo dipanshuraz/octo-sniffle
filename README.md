@@ -41,13 +41,16 @@ Step 1 :
 ![Screenshot](./screenshots/1.png)
 Step 2 :
 <br/>
-
 ![Screenshot](./screenshots/2.png)
 Step 3 :
 <br/>
 
 ![Screenshot](./screenshots/3.png)
-Step 4 :
+<br/>
+
+### Performance
+
+![Screenshot](./screenshots/performance.png)
 <br/>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
