@@ -1,0 +1,80 @@
+@import "../components/atoms/Select/Select.style";
+@import "../components/organisms/AQIMeter/AQIMeter.style";
+@import "../components/organisms/CompareCharts/CompareCharts.style";
+@import "../components/molecules/Card/CompareCard.style";
+@import "../components/organisms/Accordion/Accordion.style";
+
+.Container__Table__Main {
+  overflow-x: auto;
+}
+
+.Container {
+  width: 90vw;
+  height: 100%;
+  margin: 1rem auto;
+
+  &__Table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    background-color: rgba(240, 240, 240, 0.473);
+
+    & thead tr th {
+      padding: 0.5rem;
+      border: 1px solid black;
+      text-align: center;
+      border-radius: 8px;
+      min-height: 120px;
+    }
+
+    & tbody tr td {
+      border: 1px solid black;
+      text-align: center;
+      min-height: 120px;
+    }
+  }
+
+  .Table__Body_AQI p {
+    border-radius: 8px;
+    border: 0px;
+    display: inline-block;
+    padding: 0.5rem 0rem;
+    color: black;
+    min-width: 200px;
+  }
+}
+
+.Compare__Table {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-content: space-evenly;
+
+  &__Column {
+    width: 100%;
+  }
+}
+
+/* FrostBox Css */
+.frostBox {
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  position: relative;
+  z-index: 10;
+  background: inherit;
+  overflow: hidden;
+}
+
+.frostBox:before {
+  content: "";
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.4);
+  filter: blur(5px);
+  margin: -20px;
+}

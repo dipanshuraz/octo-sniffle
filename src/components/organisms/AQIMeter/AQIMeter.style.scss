@@ -1,0 +1,55 @@
+.__Container {
+  width: 100%;
+  background-color: rgba(233, 233, 233, 0.671);
+  border: rgb(185, 185, 185);
+}
+
+.AQIMeter {
+  width: 40%;
+  margin: 1rem auto;
+  background-color: rgba(233, 233, 233, 0.671);
+  border: rgb(185, 185, 185);
+  border-radius: 8px;
+
+  &__Left {
+    display: flex;
+    justify-content: "center";
+    align-items: center;
+
+    &__Speedometer {
+      margin: 0 auto;
+    }
+
+    &__Speedometer {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  &__Right {
+    width: 100%;
+    &__Status {
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem;
+    }
+
+    &__Container {
+      padding: 0px 1rem;
+      &__Select {
+        width: 100%;
+      }
+    }
+  }
+  &__Update {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-top: 1px solid rgb(184, 184, 184);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .AQIMeter {
+    width: 100%;
+  }
+}

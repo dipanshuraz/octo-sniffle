@@ -1,0 +1,26 @@
+{
+  "SERVER_URL": "wss://city-ws.herokuapp.com",
+  "HEADERS": [
+    { "status": "GOOD", "start": 0, "end": 50, "color": "#55A84F" },
+    {
+      "status": "SATISFACTORY",
+      "start": 51,
+      "end": 100,
+      "color": "#A3C853"
+    },
+    {
+      "status": "MODERATE",
+      "start": 101,
+      "end": 200,
+      "color": "#FFF851"
+    },
+    { "status": "POOR", "start": 201, "end": 300, "color": "#F29C3E" },
+    {
+      "status": "VERY POOR",
+      "start": 301,
+      "end": 400,
+      "color": "#E93F33"
+    },
+    { "status": "SEVERE", "start": 401, "end": 500, "color": "#AF2D24" }
+  ]
+}

@@ -1,0 +1,32 @@
+.Compare__Table {
+  background-color: rgba(231, 231, 231, 0.671);
+  padding: 1rem;
+  text-align: center;
+  min-height: 500px;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  &__Column {
+    padding: 1rem;
+    border: 1px solid gray;
+    border-radius: 8px;
+    min-width: 200px;
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .Compare__Table {
+    justify-content: space-evenly;
+  }
+}
+
+.accordion {
+  width: 100%;
+}
+.accordion .accordion-item .title {
+  width: 100%;
+  // background-color: yellowgreen;
+}
