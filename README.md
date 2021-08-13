@@ -32,7 +32,7 @@ Open Here -
 
 ## Mock-up UI :
 
-![Screenshot](./screenshots/ui.jpg)
+![Screenshot](./screenshots/ui.png)
 <br/>
 
 ## Deployed UI :

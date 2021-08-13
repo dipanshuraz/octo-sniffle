@@ -10,6 +10,7 @@ const HomePage = () => {
   const [cities, setCities] = useState([]);
   const [selectedCity, setSelectedCity] = useState({});
   const [meter, SetMeter] = useState({});
+  // eslint-disable-next-line no-unused-vars
   const [originalData, setOriginalData] = useState([]);
   const [meterFlag, setMeterFlag] = useState(false);
 
