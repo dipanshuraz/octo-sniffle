@@ -13,8 +13,10 @@ const HomePage = () => {
   // eslint-disable-next-line no-unused-vars
   const [originalData, setOriginalData] = useState([]);
   const [meterFlag, setMeterFlag] = useState(false);
+  const [loading, setloading] = useState(false);
 
   useEffect(() => {
+    setloading(true);
     initSocket();
   }, []);
 
@@ -59,6 +61,7 @@ const HomePage = () => {
       }
 
       setOriginalData(WSCity);
+      setloading(false);
       return setCities(__cities);
     });
   });
@@ -76,6 +79,10 @@ const HomePage = () => {
 
   return (
     <div className="Container">
+      <div
+        style={{ display: loading ? "" : "none" }}
+        className="Container__Loader"
+      ></div>
       <AQIMeter
         checkStatus={checkStatus}
         meter={meter}

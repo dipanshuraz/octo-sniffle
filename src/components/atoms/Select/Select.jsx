@@ -7,7 +7,7 @@ export const Select = ({ optionKey, onChange, className, options }) => {
       <option value=""> -- select a city -- </option>
       {options.map((item, index) => {
         return (
-          <option value={item[optionKey]} optionKey={index}>
+          <option key={index} value={item[optionKey]} optionKey={index}>
             {item[optionKey]}
           </option>
         );

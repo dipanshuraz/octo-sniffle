@@ -17,6 +17,10 @@ export const SparkLinesTrack = ({ data }) => {
   );
 };
 
+SparkLinesTrack.defaultProps = {
+  data: [],
+};
+
 SparkLinesTrack.propTypes = {
-  data: PropTypes.instanceOf(Array).isRequired,
+  data: PropTypes.instanceOf(Array),
 };

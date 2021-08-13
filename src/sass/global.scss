@@ -13,6 +13,15 @@
   height: 100%;
   margin: 1rem auto;
 
+  &__Loader {
+    background: url("../assets/Icons/loader-file.gif") no-repeat scroll center
+      center rgba(255, 255, 255, 0.637);
+    height: 100%;
+    width: 100vw;
+    z-index: 999999;
+    position: fixed;
+  }
+
   &__Table {
     width: 100%;
     height: 100%;

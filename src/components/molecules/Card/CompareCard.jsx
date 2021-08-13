@@ -34,14 +34,14 @@ export const CompareCard = ({ name, aqi, color, time }) => {
 
 CompareCard.defaultProps = {
   name: "",
-  aqi: 0,
+  aqi: "",
   color: "",
   time: "",
 };
 
 CompareCard.propTypes = {
   name: PropTypes.string,
-  aqi: PropTypes.number,
+  aqi: PropTypes.string,
   color: PropTypes.string,
   time: PropTypes.string,
 };
