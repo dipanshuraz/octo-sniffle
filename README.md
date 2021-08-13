@@ -4,7 +4,7 @@
 
 Open Here -
 
-[ **Demo Netlify** ](https://amazing-minsky-53cfda.netlify.app/)
+[ **Demo Netlify** ](https://proximity-labs.netlify.app/)
 <br/>
 
 ## Problem Statement
@@ -13,8 +13,8 @@ Open Here -
 
 ### Deliverables:
 
-- [x] 1. Hosting URL on Netlify pages : [ **Live Application** ]()
-- [x] 2. Github repo link to your solution : [ **Github** ]()
+- [x] 1. Hosting URL on Netlify pages : [ **Live Application** ](https://proximity-labs.netlify.app/)
+- [x] 2. Github repo link to your solution : [ **Github** ](https://github.com/dipanshuraz/octo-sniffle)
 - [x] 3. Time taken to complete this : around 8 hours
 
 ### Tech / Stack:

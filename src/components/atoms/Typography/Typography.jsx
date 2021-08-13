@@ -46,7 +46,7 @@ Typography.defaultProps = {
   size: "12px",
   color: colors.black,
   margin: "10px",
-  text: "lorem ipsum",
+  text: "",
   align: "",
   fontFamily: "Roboto",
   fontWeight: "",
