@@ -37,15 +37,22 @@ Open Here -
 
 ## Deployed UI :
 
-Step 1 :
 ![Screenshot](./screenshots/1.png)
-Step 2 :
 <br/>
 ![Screenshot](./screenshots/2.png)
-Step 3 :
 <br/>
 
 ![Screenshot](./screenshots/3.png)
+<br/>
+
+### Mobile & Tab
+
+![Screenshot](./screenshots/4.png)
+<br/>
+![Screenshot](./screenshots/5.png)
+<br/>
+
+![Screenshot](./screenshots/6.png)
 <br/>
 
 ### Performance
