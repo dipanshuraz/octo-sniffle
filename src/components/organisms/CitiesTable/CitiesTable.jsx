@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Badge, Select, Typography } from "../../atoms";
+import { Typography } from "../../atoms";
 import { SparkLinesTrack } from "../../molecules";
 
 import { fixVal } from "../../../helper/helper";

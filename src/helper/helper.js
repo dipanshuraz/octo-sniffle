@@ -21,7 +21,7 @@ export const timeSince = (timeStamp) => {
       .match(/ [a-zA-Z]*/)[0]
       .replace(" ", "");
     let year =
-      timeStamp.getFullYear() == now.getFullYear()
+      timeStamp.getFullYear() === now.getFullYear()
         ? ""
         : " " + timeStamp.getFullYear();
     return day + " " + month + year + "ago";
